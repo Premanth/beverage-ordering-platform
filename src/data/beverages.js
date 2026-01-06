@@ -1,73 +1,42 @@
 export const beverages = [
-  // ================= JUICES (30) =================
-  { id: 1, name: "Fresh Orange Juice", price: 80, category: "Juice", vendor: "Juice Hub", image: "https://images.unsplash.com/photo-1577801599717-6cc2d23d1d92" },
-  { id: 2, name: "Apple Juice", price: 90, category: "Juice", vendor: "Juice Hub", image: "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce" },
-  { id: 3, name: "Pineapple Juice", price: 85, category: "Juice", vendor: "Juice Hub", image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62" },
-  { id: 4, name: "Watermelon Juice", price: 70, category: "Juice", vendor: "Fruit Bar", image: "https://images.unsplash.com/photo-1628557044797-f21b2b51b2c0" },
-  { id: 5, name: "Mosambi Juice", price: 75, category: "Juice", vendor: "Fruit Bar", image: "https://images.unsplash.com/photo-1600271886742-f049cd451bba" },
 
-  { id: 6, name: "Grape Juice", price: 85, category: "Juice", vendor: "Fresh Sip", image: "https://images.unsplash.com/photo-1576402187878-974f70c890a5" },
-  { id: 7, name: "Carrot Juice", price: 70, category: "Juice", vendor: "Fresh Sip", image: "https://images.unsplash.com/photo-1622597467836-f3285f2131b8" },
-  { id: 8, name: "Beetroot Juice", price: 75, category: "Juice", vendor: "Fresh Sip", image: "https://images.unsplash.com/photo-1604908177522-4320a9d5bb75" },
-  { id: 9, name: "Mixed Fruit Juice", price: 95, category: "Juice", vendor: "Juice Hub", image: "https://images.unsplash.com/photo-1571687949921-1306bfb24b72" },
-  { id: 10, name: "Pomegranate Juice", price: 110, category: "Juice", vendor: "Fruit Bar", image: "https://images.unsplash.com/photo-1603052875302-d376b7c0638a" },
+/* ========================= JUICES (30) ========================= */
+{ id: 1, name: "Orange Juice", category: "Juice", price: 60, vendor: "Fresh Juice Hub", image: "C:\\Users\\PREMANTH\\OneDrive\\Documents\\my personal files\\M.Tech\\SEM 1\\FRONTEND FRAMEWORKS\\Project\\beverage-app\\src\\assets\\Images\\Orange Juice.jpg" },
+{ id: 2, name: "Apple Juice", category: "Juice", price: 65, vendor: "Fresh Juice Hub", image: "C:\\Users\\PREMANTH\\OneDrive\\Documents\\my personal files\\M.Tech\\SEM 1\\FRONTEND FRAMEWORKS\\Project\\beverage-app\\src\\assets\\Images\\Apple Juice.jpg" },
+{ id: 3, name: "Mango Juice", category: "Juice", price: 70, vendor: "Tropical Treats", image: "C:\\Users\\PREMANTH\\OneDrive\\Documents\\my personal files\\M.Tech\\SEM 1\\FRONTEND FRAMEWORKS\\Project\\beverage-app\\src\\assets\\Images\\Mango Juice.jpg" },
+{ id: 4, name: "Pineapple Juice", category: "Juice", price: 75, vendor: "Tropical Treats", image: "https://unsplash.com/photos/two-glasses-of-milk-and-a-pineapple-on-a-table-JrMA5XFroHM" },
+{ id: 5, name: "Watermelon Juice", category: "Juice", price: 55, vendor: "Juice Corner", image: "https://unsplash.com/photos/two-glasses-of-watermelon-drink-with-a-black-straw-nw7rJ98OBcE" },
+{ id: 6, name: "Grape Juice", category: "Juice", price: 65, vendor: "Juice Corner", image: "https://unsplash.com/photos/red-grapes-on-clear-glass-wine-IywM7AQTZcM" },
+{ id: 7, name: "Pomegranate Juice", category: "Juice", price: 90, vendor: "Health Sip", image: "https://unsplash.com/photos/a-glass-with-water-splashing-iZymq8cGVGM" },
+{ id: 8, name: "Lemon Juice", category: "Juice", price: 40, vendor: "Health Sip", image: "https://unsplash.com/photos/clear-drinking-glass-with-lemon-juice-WDgN0XclV_w" },
+{ id: 9, name: "Carrot Juice", category: "Juice", price: 55, vendor: "Health Sip", image: "https://unsplash.com/photos/a-jar-of-carrots-sitting-on-a-cutting-board-nLDAdHDbowM" },
+{ id: 10, name: "Beetroot Juice", category: "Juice", price: 60, vendor: "Health Sip", image: "https://unsplash.com/photos/strawberry-juice-with-sliced-oranges-HDjExSGuWUw" },
+{ id: 11, name: "Mixed Fruit Juice", category: "Juice", price: 80, vendor: "Fresh Juice Hub", image: "https://unsplash.com/photos/a-table-topped-with-oranges-strawberries-and-a-jar-of-liquid-zc-rZTYKGzc" },
+{ id: 12, name: "Kiwi Juice", category: "Juice", price: 85, vendor: "Fresh Juice Hub", image: "https://unsplash.com/photos/a-green-smoothie-with-kiwi-slices-on-a-plate-_DOLyGpvVo8" },
+{ id: 13, name: "Papaya Juice", category: "Juice", price: 65, vendor: "Juice Corner", image: "https://unsplash.com/photos/clear-drinking-glass-with-orange-juice-lOQFclRojQI" },
+{ id: 14, name: "Guava Juice", category: "Juice", price: 70, vendor: "Juice Corner", image: "https://unsplash.com/photos/clear-drinking-glass-with-orange-juice-lOQFclRojQI" },
+{ id: 15, name: "Mosambi Juice", category: "Juice", price: 60, vendor: "Health Sip", image: "https://unsplash.com/photos/clear-drinking-glass-with-orange-juice-lOQFclRojQI" },
 
-  // (20 more juices omitted here for readability — included below fully)
-  { id: 11, name: "Lemon Mint Juice", price: 60, category: "Juice", vendor: "Fruit Bar", image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62" },
-  { id: 12, name: "Papaya Juice", price: 70, category: "Juice", vendor: "Fresh Sip", image: "https://images.unsplash.com/photo-1604908554049-6e92e9a2e0a3" },
-  { id: 13, name: "Guava Juice", price: 75, category: "Juice", vendor: "Juice Hub", image: "https://images.unsplash.com/photo-1574226516831-e1dff420e37f" },
-  { id: 14, name: "Strawberry Juice", price: 95, category: "Juice", vendor: "Fruit Bar", image: "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2" },
-  { id: 15, name: "Kiwi Juice", price: 105, category: "Juice", vendor: "Fresh Sip", image: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5" },
-  { id: 16, name: "Mango Juice", price: 120, category: "Juice", vendor: "Juice Hub", image: "https://images.unsplash.com/photo-1574226516831-e1dff420e37f" },
-  { id: 17, name: "Cranberry Juice", price: 110, category: "Juice", vendor: "Fruit Bar", image: "https://images.unsplash.com/photo-1603052875302-d376b7c0638a" },
-  { id: 18, name: "Cucumber Juice", price: 65, category: "Juice", vendor: "Fresh Sip", image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62" },
-  { id: 19, name: "Tomato Juice", price: 70, category: "Juice", vendor: "Juice Hub", image: "https://images.unsplash.com/photo-1574226516831-e1dff420e37f" },
-  { id: 20, name: "Aloe Vera Juice", price: 90, category: "Juice", vendor: "Fruit Bar", image: "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2" },
-  // ================= SOFT DRINKS (25) =================
-  
-  { id: 31, name: "Coca Cola", price: 40, category: "Soft Drinks", vendor: "Cool Drinks", image: "https://images.unsplash.com/photo-1594972436876-9f3b4a3c8e7a" },
-  { id: 32, name: "Pepsi", price: 40, category: "Soft Drinks", vendor: "Cool Drinks", image: "https://images.unsplash.com/photo-1622484212850-eb5968eec9d2" },
-  { id: 33, name: "Sprite", price: 40, category: "Soft Drinks", vendor: "Cool Drinks", image: "https://images.unsplash.com/photo-1598618443855-232ee0f819f6" },
-  { id: 34, name: "Fanta", price: 45, category: "Soft Drinks", vendor: "Fizz Hub", image: "https://images.unsplash.com/photo-1629203851122-3726ecdf080e" },
-  { id: 35, name: "Mountain Dew", price: 45, category: "Soft Drinks", vendor: "Fizz Hub", image: "https://images.unsplash.com/photo-1586201375761-83865001e6a5" },
-  { id: 36, name: "7 Up", price: 40, category: "Soft Drinks", vendor: "Cool Drinks", image: "https://images.unsplash.com/photo-1594972436876-9f3b4a3c8e7a" },
-  { id: 37, name: "Dr Pepper", price: 50, category: "Soft Drinks", vendor: "Fizz Hub", image: "https://images.unsplash.com/photo-1617191516663-1c4f5f6e2f4e" },
-  { id: 38, name: "Root Beer", price: 55, category: "Soft Drinks", vendor: "Fizz Hub", image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092" },
-  { id: 39, name: "Ginger Ale", price: 50, category: "Soft Drinks", vendor: "Cool Drinks", image: "https://images.unsplash.com/photo-1551024601-bec78faa8d4f" },
-  { id: 40, name: "Tonic Water", price: 45, category: "Soft Drinks", vendor: "Cool Drinks", image: "https://images.unsplash.com/photo-1571687949921-1306bfb24b72" },
-  // ================= MILKSHAKES (30) =================
-  
-  { id: 56, name: "Chocolate Milkshake", price: 130, category: "Milkshakes", vendor: "Shake Point", image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699" },
-  { id: 57, name: "Vanilla Milkshake", price: 120, category: "Milkshakes", vendor: "Shake Point", image: "https://images.unsplash.com/photo-1570197788417-0e82375c9371" },
-  { id: 58, name: "Strawberry Milkshake", price: 135, category: "Milkshakes", vendor: "Shake Point", image: "https://images.unsplash.com/photo-1623079260730-1e46f5a6a5c4" },
-  { id: 59, name: "Mango Milkshake", price: 140, category: "Milkshakes", vendor: "Shake It Up", image: "https://images.unsplash.com/photo-1601924582975-4f7c3b8f5f3c" },
-  { id: 60, name: "Banana Milkshake", price: 125, category: "Milkshakes", vendor: "Shake It Up", image: "https://images.unsplash.com/photo-1574226516831-e1dff420e37f" },
-  { id: 61, name: "Oreo Milkshake", price: 150, category: "Milkshakes", vendor: "Shake Point", image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90" },
-  { id: 62, name: "Butterscotch Milkshake", price: 130, category: "Milkshakes", vendor: "Shake It Up", image: "https://images.unsplash.com/photo-1551024601-bec78faa8d4f" },
-  { id: 63, name: "Coffee Milkshake", price: 140, category: "Milkshakes", vendor: "Shake Point", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93" },
-  { id: 64, name: "Pistachio Milkshake", price: 155, category: "Milkshakes", vendor: "Shake It Up", image: "https://images.unsplash.com/photo-1617191516663-1c4f5f6e2f4e" },
-  { id: 65, name: "Chocolate Banana Milkshake", price: 160, category: "Milkshakes", vendor: "Shake Point", image: "https://images.unsplash.com/photo-1590080877777-9f4b8f3a4f4e" },
-  // ================= TEA (25) =================
-  { id: 71, name: "Masala Chai", price: 50, category: "Tea", vendor: "Tea Time", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93" },
-  { id: 72, name: "Ginger Tea", price: 55, category: "Tea", vendor: "Tea Time", image: "https://images.unsplash.com/photo-1511920170033-f8396924c348" },
-  { id: 73, name: "Lemon Tea", price: 50, category: "Tea", vendor: "Tea Time", image: "https://images.unsplash.com/photo-1523942839745-7848d14b68f8" },
-  { id: 74, name: "Green Tea", price: 60, category: "Tea", vendor: "Herbal Brews", image: "https://images.unsplash.com/photo-1598514982205-fda4b32f8c08" },
-  { id: 75, name: "Black Tea", price: 50, category: "Tea", vendor: "Herbal Brews", image: "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a" },
-  { id: 76, name: "Cardamom Tea", price: 55, category: "Tea", vendor: "Tea Time", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93" },
-  { id: 77, name: "Tulsi Tea", price: 60, category: "Tea", vendor: "Herbal Brews", image: "https://images.unsplash.com/photo-1523942839745-7848d14b68f8" },
-  { id: 78, name: "Chamomile Tea", price: 65, category: "Tea", vendor: "Herbal Brews", image: "https://images.unsplash.com/photo-1598514982205-fda4b32f8c08" },
-  { id: 79, name: "Jasmine Tea", price: 70, category: "Tea", vendor: "Herbal Brews", image: "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a" },
-  { id: 80, name: "Earl Grey Tea", price: 75, category: "Tea", vendor: "Tea Time", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93" },
-  // ================= COFFEE (25) =================
-  { id: 86, name: "Espresso", price: 90, category: "Coffee", vendor: "Coffee Day", image: "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a" },
-  { id: 87, name: "Cappuccino", price: 120, category: "Coffee", vendor: "Coffee Day", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93" },
-  { id: 88, name: "Latte", price: 130, category: "Coffee", vendor: "Coffee Day", image: "https://images.unsplash.com/photo-1523942839745-7848d14b68f8" },
-  { id: 89, name: "Cold Coffee", price: 150, category: "Coffee", vendor: "Brew Hub", image: "https://images.unsplash.com/photo-1598514982205-fda4b32f8c08" },
-  { id: 90, name: "Mocha", price: 145, category: "Coffee", vendor: "Brew Hub", image: "https://images.unsplash.com/photo-1511920170033-f8396924c348" },
-  { id: 91, name: "Americano", price: 100, category: "Coffee", vendor: "Coffee Day", image: "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a" },
-  { id: 92, name: "Macchiato", price: 110, category: "Coffee", vendor: "Brew Hub", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93" },
-  { id: 93, name: "Flat White", price: 125, category: "Coffee", vendor: "Coffee Day", image: "https://images.unsplash.com/photo-1523942839745-7848d14b68f8" },
-  { id: 94, name: "Affogato", price: 140, category: "Coffee", vendor: "Brew Hub", image: "https://images.unsplash.com/photo-1598514982205-fda4b32f8c08" },
-  { id: 95, name: "Irish Coffee", price: 160, category: "Coffee", vendor: "Brew Hub", image: "https://images.unsplash.com/photo-1511920170033-f8396924c348" },
-  
+
+/* ========================= SOFT DRINKS (30) ========================= */
+{ id: 31, name: "Cola", category: "SoftDrinks", price: 40, vendor: "Fizz Factory", image: "https://unsplash.com/photos/coca-cola-can-z8PEoNIlGlg" },
+{ id: 32, name: "Sprite", category: "SoftDrinks", price: 45, vendor: "Fizz Factory", image: "https://unsplash.com/photos/coca-cola-can-z8PEoNIlGlg" },
+{ id: 33, name: "Pepsi", category: "SoftDrinks", price: 45, vendor: "Fizz Factory", image: "https://unsplash.com/photos/pepsi-can-on-gray-table-82LJQZGwW5o" },
+{ id: 34, name: "Fanta", category: "SoftDrinks", price: 50, vendor: "Sparkle Drinks", image: "https://unsplash.com/photos/a-bottle-of-soda-sitting-on-the-ground-next-to-a-tire-nJguJaHo5dg" },
+
+/* ========================= MILKSHAKES (30) ========================= */
+{ id: 61, name: "Chocolate Milkshake", category: "Milkshake", price: 120, vendor: "Shake Studio", image: "https://unsplash.com/photos/full-filled-cream-glass-on-table-7TeR1A1MUpM" },
+{ id: 62, name: "Vanilla Milkshake", category: "Milkshake", price: 110, vendor: "Shake Studio", image: "https://unsplash.com/photos/a-creamy-beverage-with-caramel-swirls-and-tapioca-pearls-AL3uWJvhfWE" },
+{ id: 63, name: "Strawberry Milkshake", category: "Milkshake", price: 130, vendor: "Shake Studio", image: "https://unsplash.com/photos/a-drink-with-whipped-cream-and-a-cherry-on-top-VnKW4_vqHZE" },
+{ id: 64, name: "Oreo Milkshake", category: "Milkshake", price: 140, vendor: "Shake Studio", image: "https://unsplash.com/photos/a-glass-of-ice-cream-with-a-cookie-on-top-pYmOaWZAPqI" },
+{ id: 65, name: "Mango Milkshake", category: "Milkshake", price: 125, vendor: "Shake Studio", image: "https://unsplash.com/photos/a-glass-with-a-liquid-in-it-qaE2Tqwgzic" },
+
+/* ========================= COFFEE (30) ========================= */
+{ id: 91, name: "Espresso", category: "Coffee", price: 90, vendor: "Brew Brothers", image: "https://unsplash.com/photos/a-glass-with-a-liquid-in-it-qaE2Tqwgzic"},
+{ id: 92, name: "Cappuccino", category: "Coffee", price: 120, vendor: "Brew Brothers", image: "https://unsplash.com/photos/white-ceramic-cup-with-latte-cafe-art-on-desk-JpQGEArmG0I" },
+{ id: 93, name: "Latte", category: "Coffee", price: 130, vendor: "Brew Brothers", image: "https://unsplash.com/photos/a-cappuccino-sitting-on-top-of-a-blue-saucer-wFvlgfyhJRE" },
+{ id: 94, name: "Mocha", category: "Coffee", price: 140, vendor: "Coffee Culture", image: "https://unsplash.com/photos/white-ceramic-cup-with-saucer-on-white-table-gbNuQfm9hTE" },
+{ id: 95, name: "Cold Coffee", category: "Coffee", price: 150, vendor: "Coffee Culture", image: "https://unsplash.com/photos/white-ceramic-cup-with-saucer-on-white-table-gbNuQfm9hTE" }
+
 ];
+
