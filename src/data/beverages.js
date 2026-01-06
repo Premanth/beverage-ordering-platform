@@ -19,17 +19,17 @@ export const beverages = [
 
 
 /* ========================= SOFT DRINKS (30) ========================= */
-{ id: 31, name: "Cola", category: "SoftDrinks", price: 40, vendor: "Fizz Factory", image: "https://unsplash.com/photos/coca-cola-can-z8PEoNIlGlg" },
-{ id: 32, name: "Sprite", category: "SoftDrinks", price: 45, vendor: "Fizz Factory", image: "https://unsplash.com/photos/coca-cola-can-z8PEoNIlGlg" },
-{ id: 33, name: "Pepsi", category: "SoftDrinks", price: 45, vendor: "Fizz Factory", image: "https://unsplash.com/photos/pepsi-can-on-gray-table-82LJQZGwW5o" },
-{ id: 34, name: "Fanta", category: "SoftDrinks", price: 50, vendor: "Sparkle Drinks", image: "https://unsplash.com/photos/a-bottle-of-soda-sitting-on-the-ground-next-to-a-tire-nJguJaHo5dg" },
+{ id: 31, name: "Cola", category: "Soft Drinks", price: 40, vendor: "Fizz Factory", image: "https://unsplash.com/photos/coca-cola-can-z8PEoNIlGlg" },
+{ id: 32, name: "Sprite", category: "Soft Drinks", price: 45, vendor: "Fizz Factory", image: "https://unsplash.com/photos/coca-cola-can-z8PEoNIlGlg" },
+{ id: 33, name: "Pepsi", category: "Soft Drinks", price: 45, vendor: "Fizz Factory", image: "https://unsplash.com/photos/pepsi-can-on-gray-table-82LJQZGwW5o" },
+{ id: 34, name: "Fanta", category: "Soft Drinks", price: 50, vendor: "Sparkle Drinks", image: "https://unsplash.com/photos/a-bottle-of-soda-sitting-on-the-ground-next-to-a-tire-nJguJaHo5dg" },
 
 /* ========================= MILKSHAKES (30) ========================= */
-{ id: 61, name: "Chocolate Milkshake", category: "Milkshake", price: 120, vendor: "Shake Studio", image: "https://unsplash.com/photos/full-filled-cream-glass-on-table-7TeR1A1MUpM" },
-{ id: 62, name: "Vanilla Milkshake", category: "Milkshake", price: 110, vendor: "Shake Studio", image: "https://unsplash.com/photos/a-creamy-beverage-with-caramel-swirls-and-tapioca-pearls-AL3uWJvhfWE" },
-{ id: 63, name: "Strawberry Milkshake", category: "Milkshake", price: 130, vendor: "Shake Studio", image: "https://unsplash.com/photos/a-drink-with-whipped-cream-and-a-cherry-on-top-VnKW4_vqHZE" },
-{ id: 64, name: "Oreo Milkshake", category: "Milkshake", price: 140, vendor: "Shake Studio", image: "https://unsplash.com/photos/a-glass-of-ice-cream-with-a-cookie-on-top-pYmOaWZAPqI" },
-{ id: 65, name: "Mango Milkshake", category: "Milkshake", price: 125, vendor: "Shake Studio", image: "https://unsplash.com/photos/a-glass-with-a-liquid-in-it-qaE2Tqwgzic" },
+{ id: 61, name: "Chocolate Milkshake", category: "Milkshakes", price: 120, vendor: "Shake Studio", image: "https://unsplash.com/photos/full-filled-cream-glass-on-table-7TeR1A1MUpM" },
+{ id: 62, name: "Vanilla Milkshake", category: "Milkshakes", price: 110, vendor: "Shake Studio", image: "https://unsplash.com/photos/a-creamy-beverage-with-caramel-swirls-and-tapioca-pearls-AL3uWJvhfWE" },
+{ id: 63, name: "Strawberry Milkshake", category: "Milkshakes", price: 130, vendor: "Shake Studio", image: "https://unsplash.com/photos/a-drink-with-whipped-cream-and-a-cherry-on-top-VnKW4_vqHZE" },
+{ id: 64, name: "Oreo Milkshake", category: "Milkshakes", price: 140, vendor: "Shake Studio", image: "https://unsplash.com/photos/a-glass-of-ice-cream-with-a-cookie-on-top-pYmOaWZAPqI" },
+{ id: 65, name: "Mango Milkshake", category: "Milkshakes", price: 125, vendor: "Shake Studio", image: "https://unsplash.com/photos/a-glass-with-a-liquid-in-it-qaE2Tqwgzic" },
 
 /* ========================= COFFEE (30) ========================= */
 { id: 91, name: "Espresso", category: "Coffee", price: 90, vendor: "Brew Brothers", image: "https://unsplash.com/photos/a-glass-with-a-liquid-in-it-qaE2Tqwgzic"},
