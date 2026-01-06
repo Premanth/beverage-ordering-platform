@@ -22,7 +22,7 @@ export const beverages = [
 { id: 31, name: "Cola", category: "Soft Drinks", price: 40, vendor: "Fizz Factory", image: "https://unsplash.com/photos/coca-cola-can-z8PEoNIlGlg" },
 { id: 32, name: "Sprite", category: "Soft Drinks", price: 45, vendor: "Fizz Factory", image: "https://unsplash.com/photos/coca-cola-can-z8PEoNIlGlg" },
 { id: 33, name: "Pepsi", category: "Soft Drinks", price: 45, vendor: "Fizz Factory", image: "https://unsplash.com/photos/pepsi-can-on-gray-table-82LJQZGwW5o" },
-{ id: 34, name: "Fanta", category: "Soft Drinks", price: 50, vendor: "Sparkle Drinks", image: "https://unsplash.com/photos/a-bottle-of-soda-sitting-on-the-ground-next-to-a-tire-nJguJaHo5dg" },
+{ id: 34, name: "Fanta", category: "Soft  Drinks", price: 50, vendor: "Sparkle Drinks", image: "https://unsplash.com/photos/a-bottle-of-soda-sitting-on-the-ground-next-to-a-tire-nJguJaHo5dg" },
 
 /* ========================= MILKSHAKES (30) ========================= */
 { id: 61, name: "Chocolate Milkshake", category: "Milkshakes", price: 120, vendor: "Shake Studio", image: "https://unsplash.com/photos/full-filled-cream-glass-on-table-7TeR1A1MUpM" },
