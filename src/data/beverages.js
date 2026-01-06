@@ -48,4 +48,4 @@ export const beverages = [
 
 ];
 
-export default beverages;
+
