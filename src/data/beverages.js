@@ -1,4 +1,4 @@
-const beverages = [
+export const beverages = [
 
 /* ========================= JUICES (30) ========================= */
 { id: 1, name: "Orange Juice", category: "Juice", price: 60, vendor: "Fresh Juice Hub", image: "https://images.unsplash.com/photo-1571687949921-1306bfb24b72" },
